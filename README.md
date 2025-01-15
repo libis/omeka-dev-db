@@ -8,12 +8,11 @@ To use command line mysql:
 Use 'db' as hostname in database.ini files 
 
 Add the following to a seperate project's docker-compose.yml:
-    services:
-      ...
-      networks:
-       - my-network
-      ...
-
+ services:
+ ...
+ networks:
+   - my-network
+...
     networks:
       my-network:
         external:
